@@ -39,7 +39,7 @@ h3 {
 }
 
 p {
-    width: 54rem;
+    width: 70%;
     font-size: 1.3rem;
     font-family: "Bai Jamjuree", sans-serif;
     color: rgb(159, 171, 178);
@@ -53,6 +53,7 @@ ul {
 }
 
 header {
+    width: 90%;
     align-items: center;
     margin: 10rem auto 2rem;
 }
@@ -66,13 +67,12 @@ header img {
     margin: 0 auto 2rem;
 }
 
-.buttons {
-    width: 50rem;
-    height: 5rem;
-    display: flex;
+.buttons,
+.s-tracking-b,
+.collaboration,
+.features-b,
+footer {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
@@ -81,6 +81,7 @@ button {
     height: 3rem;
     border-radius: 5rem;
     border: none;
+    cursor: pointer;
     margin: 0 0.5rem;
 }
 
@@ -104,17 +105,11 @@ button.mac-d {
 }
 
 .s-tracking-h {
+    width: 90%;
     margin: 0 auto 5rem;
 }
 
-.s-tracking-h p {
-    width: 50rem;
-}
-
 .s-tracking-b {
-    height: fit-content;
-    padding-top: 0;
-    flex-direction: row;
     gap: 5rem;
 }
 
@@ -149,15 +144,15 @@ button.mac-d {
 }
 
 .accessibility img {
-    width: 70%;
+    width: 90%;
+    max-width: 80rem;
 }
 
 .collaboration {
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 90%;
+    max-width: 80rem;
     margin: 5rem auto;
-    column-gap: 10%;
-    row-gap: 5rem;
+    column-gap: 5%;
 }
 
 .collaboration img {
@@ -168,9 +163,6 @@ button.mac-d {
 .features-b {
     width: 90%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     gap: 1rem;
 }
 
@@ -188,19 +180,12 @@ button.mac-d {
 
 footer {
     background-color: rgba(232, 236, 238, 0.4);
-    display: grid;
-    grid: auto / 20% 40% 40%;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 5rem;
     margin: 1rem 0 0 0;
 }
 
-footer div {
-    display: flex;
-    align-items: center;
-}
-
 .footer-logo {
-    justify-content: flex-start;
+    margin-right: 5rem;
 }
 
 .footer-logo img {
@@ -220,7 +205,14 @@ footer div {
 }
 
 .social {
+    width: fit-content;
     justify-content: flex-end;
+}
+
+.social ul {
+    width: fit-content;
+    padding: 0;
+    margin: 0 0 0 5rem;
 }
 
 .social img {
