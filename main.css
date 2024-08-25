@@ -115,6 +115,7 @@ button.mac-d {
 
 .s-tracking-b img {
     width: 50%;
+    max-width: 60rem;
     margin: 0;
 }
 
@@ -153,6 +154,7 @@ button.mac-d {
     max-width: 80rem;
     margin: 5rem auto;
     column-gap: 5%;
+    row-gap: 2rem;
 }
 
 .collaboration img {
@@ -166,12 +168,13 @@ button.mac-d {
     gap: 1rem;
 }
 
-.features-b p {
-    width: 30rem;
-}
-
 .features-b h3 {
     margin: 2rem auto 0;
+}
+
+.features-b div {
+    width: 90%;
+    max-width: 30rem;
 }
 
 .download {
