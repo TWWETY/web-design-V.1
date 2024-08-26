@@ -182,7 +182,6 @@ button.mac-d {
 }
 
 footer {
-    width: 90%;
     background-color: rgba(232, 236, 238, 0.4);
     padding: 2.5rem 0;
     margin: 1rem auto 0;
@@ -194,7 +193,7 @@ footer {
 }
 
 .footer-s ul {
-    width: 30rem;
+    width: fit-content;
     display: grid;
     grid: repeat(2, auto) / repeat(3, auto);
     text-align: start;
