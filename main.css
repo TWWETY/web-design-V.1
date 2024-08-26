@@ -182,13 +182,11 @@ button.mac-d {
 }
 
 footer {
+    width: 90%;
     background-color: rgba(232, 236, 238, 0.4);
-    padding: 2.5rem 5rem;
-    margin: 1rem 0 0 0;
-}
-
-.footer-logo {
-    margin-right: 5rem;
+    padding: 2.5rem 0;
+    margin: 1rem auto 0;
+    justify-content: space-around;
 }
 
 .footer-logo img {
